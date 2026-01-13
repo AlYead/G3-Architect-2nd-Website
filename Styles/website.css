@@ -1,0 +1,126 @@
+/* Remove default margin and padding */
+
+*{
+  margin: 0; padding: 0; box-sizing: border-box
+}
+/* Font style for full website */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+        /* Shared style */
+
+.display-flex{
+  display: flex;
+}
+
+
+/* Text Size */
+      .bold{font-size: 700;}
+      .semi-bold{font-size: 600;}
+      .medium{font-size: 500;}
+
+      .s-paragraph{ font-size: 1.125rem;
+        line-height: 26px;
+        color: #727272;
+
+      }
+
+/* colors */
+      .dark-1{color: #131313;}
+      .dark-2{color: #424242;}
+      .dark-3{color: #727272;}
+      .orange{color: #FF900E;}
+
+
+/* Button style  */
+      .btn-primary{
+        background-color: #FF900E;
+        border: none;
+        border-radius: 8px;
+        padding: 21px 25px;
+
+        color: #ffffff;
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+
+
+        /* Header style */ 
+
+.bg-color{rgba(255, 144, 14, 0.1)}
+
+
+/* Navigation related style  */
+
+.brand{
+  font-size: 2.81rem;
+  font-weight: 700;
+
+}
+
+.navbar{ border: 1px solid maroon;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 50px auto 0px;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.125rem;
+  line-height: 26px;
+  font-weight: 500;
+
+}
+
+/* Banner Related style  */
+.banner{ border: 1px solid darkblue;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner-content{
+  max-width: 865px;
+  margin:0px auto 50px;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-description{
+  margin-top: 30px;
+  margin-bottom: 32px;
+
+}
+
+.banner-image{
+  width: 100%;
+}
+
+        /* Main Part styles   */
+
+
+
+        /* Responsive related styles */
+
+/* Small Device */
+@media screen and (max-width:576px){
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+}
